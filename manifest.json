@@ -1,5 +1,5 @@
 {
-  "name": "Getting Started Example",
+  "name": "Silver Happiness",
   "version": "1.0",
   "description": "Build an Extension!",
   "manifest_version": 2,
@@ -7,12 +7,12 @@
     "32": "silver-happiness.png"
   },
   "browser_action": {
-    "32": "silver-happiness.png"
+    "default_title": "Silver Happiness",
+    "default_icon": {
+      "32": "silver-happiness.png"
+    }
   },
   "chrome_url_overrides": {
     "newtab": "silver-happiness.html"
   }
-
-  
-
 }
