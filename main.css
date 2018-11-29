@@ -1,3 +1,57 @@
-.hello {
-    font-size: 50px;
+.world {
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: rgb(136, 202, 38);
+    text-align: center;
+    margin:0 auto;
+    font-display: bold;
 }
+
+.push {
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: rgb(82, 117, 223);
+    text-align: center;
+}
+
+.warning {
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: rgb(199, 8, 8);
+    text-align: center;
+}
+
+.pikachu {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.pikachu:hover {
+    background-color: rebeccapurple;
+}
+
+.pikachu:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+input[type=submit] {
+    background-color:#4CAF50;
+    border:none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {background-color: black}
