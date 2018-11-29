@@ -1,8 +1,9 @@
 {
   "name": "Silver Happiness",
   "version": "1.0",
-  "description": "Build an Extension!",
+  "description": "Meme page for funsies",
   "manifest_version": 2,
+  "content_security_policy": "default-src 'self' 'unsafe-inline' 'unsafe-eval; script-src 'unsafe-inline' 'unsafe-eval' 'self' 'unsafe-inline' 'unsafe-eval'",
   "icons": {
     "32": "silver-happiness.png"
   },
