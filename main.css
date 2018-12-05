@@ -1,5 +1,5 @@
 .world {
-    font-size: 40px;
+    font-size: 60px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     color: rgb(136, 202, 38);
@@ -9,25 +9,25 @@
 }
 
 .push {
-    font-size: 25px;
+    font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
-    color: rgb(82, 117, 223);
+    color: rgb(67, 64, 238);
     text-align: center;
 }
 
 .warning {
-    font-size: 25px;
+    font-size: 18px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
-    color: rgb(199, 8, 8);
+    color: rgba(228, 37, 37, 0.767);
     text-align: center;
 }
 
 .pikachu {
     display: inline-block;
     padding: 15px 25px;
-    font-size: 24px;
+    font-size: 15px;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
@@ -36,11 +36,11 @@
     background-color: #4CAF50;
     border: none;
     border-radius: 15px;
-    box-shadow: 0 9px #999;
+    box-shadow: 0 9px rgb(201, 199, 199);
 }
 
 .pikachu:hover {
-    background-color: rebeccapurple;
+    background-color:#4CAF50;
 }
 
 .pikachu:active {
@@ -48,10 +48,297 @@
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
-input[type=submit] {
+
+input[type = submit] {
     background-color:#4CAF50;
+    font-size: 15px;
+    font-weight: bold;
     border:none;
     font-family: 'Courier New', Courier, monospace;
 }
 
-body {background-color: black}
+/* .pikimg {
+    border-color: black;
+} */
+
+.scary {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(201, 199, 199); 
+}
+
+.scary:hover {
+    background-color:#4CAF50;
+}
+
+.scary:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+input[type = submit] {
+    background-color:#4CAF50;
+    font-size: 15px;
+    font-weight: bold;
+    border:none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.dancing {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.scarypikachu {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.puppyrun {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.doggies {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: rgb(66, 218, 197);
+    text-align: center;
+}
+
+.nosleep {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: rgb(233, 183, 47);
+    text-align: center;
+}
+
+.boba {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: rgb(233, 168, 47);
+    text-align: center;
+}
+
+.scream {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(201, 199, 199); 
+}
+
+.scream:hover {
+    background-color:#4CAF50;
+}
+
+.scream:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+input[type = submit] {
+    background-color:#4CAF50;
+    font-size: 15px;
+    font-weight: bold;
+    border:none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.screaming{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pinky {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: rgb(236, 65, 171);
+    text-align: center; 
+}
+
+.toad {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dp {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(201, 199, 199); 
+}
+
+.dp:hover {
+    background-color:#4CAF50;
+}
+
+.dp:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+input[type = submit] {
+    background-color:#4CAF50;
+    font-size: 15px;
+    font-weight: bold;
+    border:none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.deadpool {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pole {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: rgb(189, 71, 35);
+    text-align: center; 
+}
+
+.no {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: rgb(189, 71, 35);
+    text-align: center; 
+}
+
+.chicken {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dis {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(201, 199, 199);
+}
+
+.dis:hover {
+    background-color:#4CAF50;
+}
+
+.dis:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+input[type = submit] {
+    background-color:#4CAF50;
+    font-size: 15px;
+    font-weight: bold;
+    border:none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.ariel {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aladdin {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.poca {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sno {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.yikes {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: rgb(166, 206, 21);
+    text-align: center; 
+}
+
+.nope {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: rgb(156, 189, 35);
+    text-align: center; 
+}
+
+.crush {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: rgb(131, 248, 63);
+    text-align: center; 
+}
+
+.oof {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: rgb(180, 250, 68);
+    text-align: center; 
+}
+
+
+body {background-color: black;}
+
+.padStuff {
+    padding: 15px 25px;
+}
