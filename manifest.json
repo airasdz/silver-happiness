@@ -9,6 +9,7 @@
   },
   "browser_action": {
     "default_title": "Silver Happiness",
+    "default_popup": "popup.html",
     "default_icon": {
       "32": "silver-happiness.png"
     }
@@ -16,4 +17,6 @@
   "chrome_url_overrides": {
     "newtab": "silver-happiness.html"
   }
+
+
 }
